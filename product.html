@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style-product.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Product</title>
+</head>
+<body>
+    <div class="product" >
+        <div class="box-product">
+            <div class="grid-container">
+                <div class="card-product" onclick="showDetail1()">
+                    <div class="card-img">
+                        <img src="./img/1.png" alt="">
+                    </div>
+                    <div class="text-name">ที่ใส่เนยใบบัว มีฝา</div>
+                    <div class="text-type">เครี่องใช้บนโต๊ะอาหาร</div>
+                    <div class="text-price">350.00 ฿</div>
+                </div>
+                <div class="card-product" onclick="showDetail2()">
+                    <div class="card-img">
+                        <img src="./img/2.png" alt="">
+                    </div>
+                    <div class="text-name">ที่เขี่ยบุหรี่สี่เหลี่ยม XL</div>
+                    <div class="text-type">อุแกรณ์ตกแต่งบ้าน</div>
+                    <div class="text-price">460.00 ฿</div>
+                </div>
+                <div class="card-product" onclick="showDetail3()">
+                    <div class="card-img">
+                        <img src="./img/3.png" alt="">
+                    </div>
+                    <div class="text-name">ผอบกลม เล็ก</div>
+                    <div class="text-type">อุปกรณ์ตกแต่งบ้าน</div>
+                    <div class="text-price">230.00 ฿</div>
+                </div>
+                <div class="card-product" onclick="showDetail4()">
+                    <div class="card-img">
+                        <img src="./img/4.png" alt="">
+                    </div>
+                    <div class="text-name">เตาน้ำมันหอม</div>
+                    <div class="text-type">อุปกรณ์ตกแต่งบ้าน</div>
+                    <div class="text-price">460.00 ฿</div>
+                </div>
+                <div class="card-product" onclick="showDetail5()">
+                    <div class="card-img">
+                        <img src="./img/5.png" alt="">
+                    </div>
+                    <div class="text-name">ที่ชุดกาชาสำหรับ 3 ที่</div>
+                    <div class="text-type">ภาชนะชาและกาแฟ</div>
+                    <div class="text-price">1,210.00 ฿</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="detail-box" onclick="showDetail()">
+        <p id="1" class="t-title"></p>
+        <p id="2"></p>
+        <p id="3"></p>
+        <p id="4"></p>
+        <p id="5"></p>
+        <p id="6"></p>
+        <p id="7"></p>
+        <p id="8"></p>
+    </div>
+    <script>
+        function showDetail5() {
+            document.getElementById("1").innerHTML = "ข้อมูลผลิตภัณฑ์ (ที่ชุดกาชาสำหรับ 3 ที่)";
+            document.getElementById("2").innerHTML = "เพิ่มความสวยงามบนโต๊ะอาหารด้วยชุดกาน้ำชาศิลาดล Design";
+            document.getElementById("4").innerHTML = "เหมาะสำหรับ เพิ่มความสวยงามบนโต๊ะอาหารด้วยชุดกาน้ำชาศิลาดล Design : งานดีไซน์เป็นชุดแก้วชาทรงสูง 3 ใบ พร้อมจานรอง Size : 13 x 21.25 x 13.75 ซม.(กาชาเล็ก) Size : 6.5 x 8.5 ซม (ถ้วยชา) Size : 28 x 3.5 ซม (จานรอง)";
+            document.getElementById("6").innerHTML = "Color : สีเขียวศิลาดล";
+            document.getElementById("8").innerHTML = "สามารถนำเข้าไมโครเวฟ ทนความร้อนสูงกว่า 600 องศาเซสเซียส / นำเข้าเครื่องล้างจานอัตโนมัติได้";
+        }
+        function showDetail4() {
+            document.getElementById("1").innerHTML = "ข้อมูลผลิตภัณฑ์ (เตาน้ำมันหอม)";
+            document.getElementById("2").innerHTML = "สร้างบรยากาศแห่งความหอม ง่ายๆ ด้วยเตาน้ำมันหอม แบบจุดเทียน Design : งานดีไซน์เตาน้ำมันหอมเคลือบศิลาดล";
+            document.getElementById("4").innerHTML = "เหมาะสำหรับ สร้างบรยากาศแห่งความหอม ง่ายๆ ด้วยเตาน้ำมันหอม แบบจุดเทียน Design : งานดีไซน์เตาน้ำมันหอมเคลือบศิลาดล ทนความร้อนได้ดี ช่วยกระจายความหอมในบริเวณกว้าง Size : 9 x 12.5 ซม. Code : 6162 16 10 Color : สีเขียวศิลาดล";
+            document.getElementById("6").innerHTML = "สามารถทนความร้อนสูง สีสวยสดใสไม่มีซีดจาง ทำความสะอาดง่าย";
+        }
+        function showDetail3() {
+            document.getElementById("1").innerHTML = "ข้อมูลผลิตภัณฑ์ (ผอบกลม เล็ก)";
+            document.getElementById("2").innerHTML = "ใช้เป็นที่ใส่เครื่องประดับ Design : งานดีไซน์รูปทรงกลม";
+            document.getElementById("4").innerHTML = "เหมาะสำหรับ ใช้เป็นที่ใส่เครื่องประดับ Design : งานดีไซน์รูปทรงกลม มี 2 ขนาด ใบใหญ่ ,เล็ก Size : 7.5 x 5 ซม. Code : 4016 06 10 Color : สีเขียวสยาม";
+        }
+        function showDetail2() {
+            document.getElementById("1").innerHTML = "ข้อมูลผลิตภัณฑ์ (ที่เขี่ยบุหรี่สี่เหลี่ยม XL)";
+            document.getElementById("2").innerHTML = "ใช้เป็นที่เขี่ยบุหรี่ Design : งานดีไซน์ลักษณะรูปทรงสี่เหลี่ยม";
+            document.getElementById("4").innerHTML = "เหมาะสำหรับ ใช้เป็นที่เขี่ยบุหรี่ Design : งานดีไซน์ลักษณะรูปทรงสี่เหลี่ยม มีที่วางบุหรี่ 4 ด้าน Size : 18.5 x 18.5 x 4 ซม Code : 5022 06 90 Color : สีครีม";
+        }
+        function showDetail1() {
+            document.getElementById("1").innerHTML = "ข้อมูลผลิตภัณฑ์ (ที่ใส่เนยใบบัว มีฝา)";
+            document.getElementById("2").innerHTML = "งานดีไซน์รูปทรงคล้ายใบบัวโอบหุ้ม และเหมาะสำหรับการใช้งานในชีวิตประจำวัน";
+            document.getElementById("3").innerHTML = "เหมาะสำหรับ ใส่เนย Design : งานดีไซน์รูปทรงคล้ายใบบัวโอบหุ้ม และเหมาะสำหรับการใช้งานในชีวิตประจำวัน";
+            document.getElementById("4").innerHTML = "Size : 9 x 16 x 10 ซม.";
+            document.getElementById("5").innerHTML = "Code : 1042 16 22";
+            document.getElementById("6").innerHTML = "Color : สีเขียวสยาม";
+            document.getElementById("8").innerHTML = "สามารถนำเข้าไมโครเวฟ ทนความร้อนสูงกว่า 600 องศาเซสเซียส / นำเข้าเครื่องล้างจานอัตโนมัติได้";
+        }
+        function showDetail() {
+            document.getElementById("1").innerHTML = "";
+            document.getElementById("2").innerHTML = "";
+            document.getElementById("3").innerHTML = "";
+            document.getElementById("4").innerHTML = "";
+            document.getElementById("5").innerHTML = "";
+            document.getElementById("6").innerHTML = "";
+            document.getElementById("7").innerHTML = "";
+            document.getElementById("8").innerHTML = "";
+        }
+        </script>
+</body>
+</html>
